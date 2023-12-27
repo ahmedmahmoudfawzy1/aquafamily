@@ -1,0 +1,8 @@
+.card {
+  direction: rtl;
+  height: 450px;
+}
+
+.image {
+  min-height: 250px;
+}

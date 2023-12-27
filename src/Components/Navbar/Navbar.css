@@ -1,0 +1,8 @@
+nav{
+    background-color: #ccc ;
+    padding: 15px 0;
+  }
+  
+  .nav__link.active{
+    border-bottom: 1px solid black;
+  }

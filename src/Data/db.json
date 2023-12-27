@@ -1,0 +1,45 @@
+{
+  "users": [
+    {
+      "email": "ahmed@gmail.com",
+      "password": "password",
+      "fullName": "Ahmed ",
+      "confirmpassword": "password",
+      "id": 2
+    }
+  ],
+  "contact": [
+    {
+      "id": 1,
+      "name": "ahmed",
+      "phone": "012345678",
+      "email": "ahmed@gmail.com",
+      "address": "Fisal",
+      "message": "Hi"
+    },
+    {
+      "name": "wesal",
+      "phone": "012345678",
+      "email": "w@gmail.com",
+      "address": "aaaa",
+      "message": "aaaa",
+      "id": 2
+    },
+    {
+      "name": "youssef Fawzy",
+      "phone": "0123456789",
+      "email": "y@gmail.com",
+      "address": "Fisal",
+      "message": "Hello",
+      "id": 3
+    },
+    {
+      "name": "youssef Fawzy",
+      "phone": "0123456789",
+      "email": "y@gmail.com",
+      "address": "Fisal",
+      "message": "Hello",
+      "id": 4
+    }
+  ]
+}

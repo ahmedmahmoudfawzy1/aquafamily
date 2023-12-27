@@ -1,0 +1,49 @@
+.main {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items:    center;
+    margin: 50px 0;
+    background-color: #ddd;
+    border: 1px solid #000;
+}
+.one ,
+.two,
+.three,
+.four {
+    width: calc(100% / 4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    border: 1px solid #000;
+    padding-left: 30px;
+}
+.one p,
+.two p,
+.three p,
+.four p {
+    padding-top: 10px;
+}
+
+@media (min-width:320px)and(max-width:425px){
+    .main {
+        padding: 0;
+        gap: 10px;
+        width: calc(100% / 4)
+    }
+    .one {
+        width: 100%;
+    }
+    .two {
+        width: 100%;
+    }
+    .three {
+        width: 100%;
+    }
+    .four {
+        width: 100%;
+    }
+}

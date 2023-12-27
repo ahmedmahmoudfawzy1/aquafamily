@@ -1,0 +1,12 @@
+.mainSection {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.title {
+    direction: rtl;
+    margin-bottom: 25px;
+}
